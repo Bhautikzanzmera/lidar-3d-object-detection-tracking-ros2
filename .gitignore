@@ -1,0 +1,67 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+.conda/
+
+# Python installed packages / builds
+lib/
+lib64/
+site-packages/
+build/
+dist/
+*.egg-info/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git metadata from previous repositories
+.git/
+
+# ROS 2 generated folders
+install/
+log/
+build/
+
+# Model checkpoints / weights
+*.pth
+*.pt
+*.ckpt
+
+# Raw datasets
+datasets/
+dataset/
+data/raw/
+data/kitti/
+data/DAIR*/
+data/dair*/
+
+# Temporary / backup files
+*.backup
+*.bak
+*.save
+*.tmp
+*~
+*_before_calib_patch.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
